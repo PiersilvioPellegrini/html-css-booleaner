@@ -7,6 +7,7 @@
     width: 100%wh;
 }
 
+/* parte superiore */
 header {
     height: 130px;
     background-color: hsl(196, 100%, 50%);
@@ -14,6 +15,7 @@ header {
     position: relative;
 }
 
+/* titolo header */
 #title_header {
     position: absolute;
     bottom: 0;
@@ -23,44 +25,50 @@ header {
 }
 
 main {
-
     width: 100%;
 }
 
+/* titolo main */
 .title_main {
     font-size: 45px;
-
 }
 
+/* sottotitolo main */
 .sub_title_main {
     color: #a39a9a;
 }
 
+/* parte con cambio colore sottotitolo */
 #thebooleaner {
     color: #00ccff
 }
 
+/* immagine main */
 .imgmain {
     margin-top: 15px;
     width: 45%;
-    background-size: contain;
+    height: 430px;
 }
 
+/* articolo con paragrafo */
 article {
     margin-top: 20px;
     margin-bottom: 20px;
 
 }
 
+/* testo evidenziato */
 .highlighted {
     background-color: yellow;
 }
 
+/* lista non ordinata */
 .list {
     margin-left: 25px;
     margin-bottom: 30px;
 }
 
+/* tabella */
 table {
     width: 100%;
     table-layout: fixed;
@@ -72,31 +80,37 @@ table {
 
 }
 
+/* parte superiore tabella  */
 thead {
     background-color: #47b5ec;
     color: white;
     font-weight: bold;
 }
 
+/* body tabbella */
 tbody {
     background-color: hsl(187, 68%, 66%);
 
 }
 
+/* cambio colore body background */
 #tbodywhite {
     background-color: rgb(232, 241, 242);
 
 }
 
+/* footer pagina */
 #footer {
     position: relative;
 
 }
 
+/* immagini footer */
 #img_footer {
     margin-top: 10px;
 }
 
+/* testo immagini footer */
 .text_img_footer {
     position: absolute;
     color: white;
