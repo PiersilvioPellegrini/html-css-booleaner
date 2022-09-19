@@ -49,8 +49,22 @@ main {
 article {
     margin-top: 20px;
     margin-bottom: 20px;
+    
 }
 
 .highlighted {
     background-color: yellow;
+}
+
+.list{
+    margin-left: 25px;
+    margin-bottom: 20px;
+}
+
+.thead{
+    background-color: #47b5ec;
+    color:white;
+    font-weight: bold;
+    border-spacing: 0;
+    border-collapse: collapse;
 }
