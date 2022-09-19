@@ -49,41 +49,59 @@ main {
 article {
     margin-top: 20px;
     margin-bottom: 20px;
-    
+
 }
 
 .highlighted {
     background-color: yellow;
 }
 
-.list{
+.list {
     margin-left: 25px;
     margin-bottom: 30px;
 }
 
-table{
+table {
     width: 100%;
     table-layout: fixed;
     text-align: left;
-    color:black;
+    color: black;
     border: 0px;
     border-collapse: collapse;
 
 
 }
 
-thead{
+thead {
     background-color: #47b5ec;
-    color:white;
-    font-weight: bold;   
+    color: white;
+    font-weight: bold;
 }
 
-tbody{
+tbody {
     background-color: hsl(187, 68%, 66%);
-   
+
 }
 
-#tbodywhite{
+#tbodywhite {
     background-color: rgb(232, 241, 242);
+
+}
+
+#footer {
+    position: relative;
+
+}
+
+#img_footer {
+    margin-top: 10px;
+}
+
+.text_img_footer {
+    position: absolute;
+    color: white;
+    font-weight: bold;
+    left: 5px;
+    top: 15px;
 
 }
