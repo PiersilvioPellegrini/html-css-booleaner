@@ -1,0 +1,56 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.container{
+    width: 100%wh;
+}
+header{
+    height: 130px;
+    background-color: hsl(196, 100%, 50%);
+    background-image: url("../img/pattern.png");
+    position:relative;
+}
+
+#title_header{
+    position:absolute;
+    bottom:0;
+    left:0;
+    height: 60px;
+    
+}
+
+main{
+    
+    width: 100%;
+}
+
+.title_main{
+    font-size: 45px;
+    
+}
+
+.sub_title_main{
+    color:#a39a9a;
+}
+
+#thebooleaner{
+    color:#00ccff
+}
+
+.imgmain{
+    margin-top: 15px;
+    width: 45%;
+    background-size: contain;
+}
+
+article{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.highlighted {
+    background-color: yellow;
+}
+
